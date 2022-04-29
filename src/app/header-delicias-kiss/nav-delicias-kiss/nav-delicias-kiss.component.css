@@ -1,0 +1,27 @@
+.style__DivGrid {
+    display: grid;
+}
+
+.style__DivHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20;
+}
+
+.style__NavHeader ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: ABeeZee, sans-serif;
+    font-size: 20px;
+}
+
+.style__NavHeader li {
+    color: white;
+    padding: 0 15px;
+}
+
+.style__NavHeader img {
+    width: 15%;
+}

@@ -1,0 +1,25 @@
+.style__HeaderText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Merienda", cursive;
+    line-height: 2;
+}
+
+.style__HeaderText h1{
+    font-size: 45px;
+}
+
+.style__HeaderText h2 {
+    font-size: 35px;
+}
+
+.style__HeaderText h3 {
+    font-size: 25px;
+}
+
+.style__textoHeader img{
+    padding-top: 72px;
+}

@@ -1,0 +1,106 @@
+.style__ImagemBanner {
+    transform: rotate(180deg);
+}
+
+.style__listaCardUm {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.card {
+    width: 883px !important;
+    height: 320px !important;
+    display: flex;
+    
+  }
+  
+  .card_inner {
+    width: 97%;
+    height: 97%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .card_inner.is-flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card_inner1 {
+    width: 97%;
+    height: 97%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card_inner1.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card_face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  .card_face img {
+    width: 90%;
+  }
+  
+  .card_face--front {
+    background-color: #ee9eac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card_face--front h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .card_face--back {
+    transform: rotateY(180deg);
+  }
+  
+  .card_content {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+.card_header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.card_header_button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(190, 108, 121);
+  border: none;
+  border-radius: 15px;
+}

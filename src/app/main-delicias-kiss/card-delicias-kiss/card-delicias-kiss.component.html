@@ -1,0 +1,26 @@
+<div [ngStyle]="bannerCard()">
+    <img [src]="urlBannerSvg" class="style__ImagemBanner" alt="Imagem cardBanner">
+    <div class="container-grid">
+        <div class="style__listaCardUm">
+            <div class="card" id="card">
+                <div class="card_inner" *ngFor="let photoCard of photosCard">
+                    <div class="card_face card_face--front">
+                        <img [src]="photoCard.url" alt="">
+                        <h2>{{ photoCard.textCard }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="style__listaCardUm">
+            <div class="card" id="card">
+                <div class="card_inner" *ngFor="let photoCard of photosCardTwo">
+                    <div class="card_face card_face--front" >
+                        <img [src]="photoCard.url" alt="">
+                        <h2>{{ photoCard.textCard }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img [src]="headerOndas" alt="Imagem de ondas no Header">
+</div>

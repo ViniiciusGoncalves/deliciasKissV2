@@ -1,0 +1,13 @@
+<div class="container-grid">
+    <nav class="style__NavHeader">
+        <div class="style__DivHeader">
+            <ul>
+                <li *ngFor="let listaUm of primeiraLista">{{ listaUm }}</li>
+            </ul>
+            <img [src]="urlLogo" alt="Logo Delicias da Kiss">
+            <ul>
+                <li *ngFor="let listaDois of segundaLista">{{ listaDois }}</li>
+            </ul>
+        </div>
+    </nav>
+</div>

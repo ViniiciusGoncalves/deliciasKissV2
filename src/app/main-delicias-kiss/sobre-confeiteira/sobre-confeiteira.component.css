@@ -1,0 +1,58 @@
+.style__dividerSobreConfeiteira {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style__dividerSobreConfeiteira img{
+    width: 23%;
+}
+
+.style__dividerSobreConfeiteira h2{
+    font-size: 35px;
+    font-family: "Merienda", cursive;
+    color: rgb(65, 53, 43);
+    padding-top: 15px;
+}
+
+.style__textConfeiteraAndImg {
+    display: flex;
+    justify-content: center;
+}
+
+.style__textConfeiteira{
+    padding-top: 60px;
+    
+    width: 60%;
+}
+.style__textConfeiteira p {
+    color: rgb(65, 53, 43);
+    font-size: 20px;
+    font-family: "ABeeZee", sans-serif;
+    padding-top: 20px;
+}
+
+.style__textConfeiteraAndImg img{
+    margin-left: 10px;
+    width: 25%;
+    border-radius: 50%;
+    border: 5px solid pink;
+}
+
+.style__imgAndText {
+    width: 20%;
+}
+
+.style__imgAndText h3 {
+    font-size: 25px;
+    font-family: "Merienda", cursive;
+    color: rgb(65, 53, 43);
+    margin-left: 100px;
+    padding-top: 15px;
+}
+
+.style__imgAndText img {
+    width: 130%;
+}
